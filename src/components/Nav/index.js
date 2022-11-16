@@ -17,14 +17,14 @@ function Nav(props) {
   return (
     <header data-testid="header" className="flex-row px-1">
       <h2>
-        <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+        <a data-testid="link" href="/">
           <span role="img" aria-label="camera"> 📸</span> Oh Snap!
         </a>
       </h2>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a data-testid="about" href="#about">
+            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
               About me
             </a>
           </li>
